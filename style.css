@@ -1,0 +1,119 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+button{
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+body{
+    background-color:seashell;background-size: cover;
+    color:black;
+    background-image: url(https://images.hdqwalls.com/download/desert-night-minimal-4k-hp-1024x768.jpg)
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 90px;
+    height: 1vh;
+    padding: 0 6px;
+}
+
+.cabeza{
+    color: bisque;
+}
+
+main{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#buscador{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(97, 85, 105);
+    border-radius: 24px;
+    min-height: 34px;
+    max-width: 584px;
+    width: 538px;
+    background-color: rgb(85, 47, 155);
+    margin: 0 auto;
+}
+
+#buscador input{
+    width: 700px;
+    outline: none;
+    border: none;
+    background-color: rgb(85, 47, 155);
+}
+
+#buscador .icono-buscador{
+    margin: 5px;
+    width: 40px;
+    height: 30px ;
+    padding: 0 8px 0 0;
+}
+
+button{
+    background-color: rgb(182, 174, 201);
+}
+
+#lupa{
+    height: 1px;
+}
+
+.icono-cuadro{
+    height: 35px;
+}
+
+#botones{
+    text-align: center;
+    margin: 20px;
+    height: 10px;
+}
+
+#botones .button{
+    border: 1px solid slategray;
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 25px;
+    margin: 10px 4px;
+}
+
+#Logo{
+    width: 550px;
+    justify-content: center;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin:0.3%
+}
+
+a[target]{
+    color:darkmagenta;
+    text-decoration: none;
+}
+
+footer > div > ul{
+    justify-content: center;
+}
+
+
+
+
+/*Modelo de caja:box model
+    margin
+    padding
+    border
