@@ -17,7 +17,7 @@ header ul{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin: 90px;
+    margin: 33px;
     height: 1vh;
     padding: 0 6px;
 }
@@ -27,7 +27,7 @@ header ul{
 }
 
 main{
-    height: 60vh;
+    height: 71vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -87,12 +87,21 @@ button{
 }
 
 #Logo{
-    width: 550px;
+    width: 660px;
     justify-content: center;
 }
 
+footer{
+    background-color:rgb(92, 41, 104) ;
+}
+
 footer ul{
+    background-color:rgb(140, 93, 150) ;
+    background-size: contain; height: 42px;
     display: flex;
+    align-items: flex-end;
+    border-style: inset;
+    border-color: blueviolet;
     list-style-type: none;
 }
 
@@ -102,7 +111,7 @@ li{
 }
 
 a[target]{
-    color:darkmagenta;
+    color:lavender;
     text-decoration: none;
 }
 
