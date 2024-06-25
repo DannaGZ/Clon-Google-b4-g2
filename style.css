@@ -92,16 +92,16 @@ button{
 }
 
 footer{
-    background-color:rgb(92, 41, 104) ;
+    background-color:rgb(72, 89, 136) ;
 }
 
 footer ul{
-    background-color:rgb(140, 93, 150) ;
+    background-color:rgb(79, 97, 146) ;
     background-size: contain; height: 42px;
     display: flex;
     align-items: flex-end;
     border-style: inset;
-    border-color: blueviolet;
+    border-color: rgb(157, 99, 212);
     list-style-type: none;
 }
 
@@ -118,7 +118,6 @@ a[target]{
 footer > div > ul{
     justify-content: center;
 }
-
 
 
 
